@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.a {
+    fill: #ffffff;
+}
+.b {
+    fill: #b5886a;
+}
+.c {
+    fill: #211715;
+}
+.d {
+    fill: #f4b467;
+}

@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./a2o-test-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./a2o-test-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
